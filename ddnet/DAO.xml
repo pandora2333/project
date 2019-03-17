@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DAO>
+	<driver>com.mysql.jdbc.Driver</driver>
+	<database>jdbc:mysql://localhost:3306/dd</database>
+	<user>root</user>
+	<password>123456</password>
+</DAO>
