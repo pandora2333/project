@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      name: spit
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:12000
+logging:
+  level:
+    com.dangdangnet.spit: debug

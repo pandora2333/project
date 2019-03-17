@@ -1,0 +1,25 @@
+spring:
+  cloud:
+    config:
+      name: goods
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:12000
+  data:
+    elasticsearch:
+      cluster-nodes: 47.107.55.172:9300
+  rabbitmq:
+    host: 47.107.55.172
+  zipkin:
+    base-url: http://47.107.55.172:9411/
+    sender:
+      type: rabbit
+  sleuth:
+    sampler:
+      probability: 1.0
+logging:
+  level:
+    com.dangdangnet.goods: debug
+jwt:
+  config:
+    key: swpu_dangdangnet

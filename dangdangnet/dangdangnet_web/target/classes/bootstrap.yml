@@ -1,0 +1,39 @@
+
+spring:
+  cloud:
+    config:
+      name: web
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:12000
+  rabbitmq:
+    host: 47.107.55.172
+  zipkin:
+    base-url: http://47.107.55.172:9411/
+    sender:
+      type: rabbit
+    service:
+      name: web
+  sleuth:
+    sampler:
+      probability: 1.0
+zuul:
+  add-host-header: true
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+logging:
+  level:
+    com.dangdangnet.web: debug
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000
+  eureka:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeout-in-milliseconds: 3000

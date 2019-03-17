@@ -1,0 +1,17 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: dangdangnet-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/pandora2333/dangdangnet.git
+  rabbitmq:
+    host: 47.107.55.172
+management: #暴露触发消息总线的地址 http://xxxx/actuator/bus-refresh
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

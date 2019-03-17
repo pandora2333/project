@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_spit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dangdangnet_web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

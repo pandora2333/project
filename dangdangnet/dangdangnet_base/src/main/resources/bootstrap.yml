@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      name: base
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:12000
+logging:
+  level:
+    com.dangdangnet.base: debug
